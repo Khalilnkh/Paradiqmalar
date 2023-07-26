@@ -1,0 +1,77 @@
+Proqramlaşdırma paradiqması termini bir proqramlaşdırma tərzinə istinad edir. Müəyyən bir dilə istinad etmir, əksinə proqram tərzinə istinad edir.
+
+Məşhur olan bir çox proqramlaşdırma dili var, amma hamısı tətbiq olunduqda bir strategiyaya riayət etməlidirlər. Və bu strategiya bir paradiqmadır.
+Imperative programming paradigm
+“İmperativ” sözü Latınca “impero” mənasını verir, “əmr edirəm” deməkdir.
+
+Bu, “imperator” dan aldığımız eyni sözdür və bu, olduqca uyğun. Sən imperatorsan. Kompüterə az əmr verirsiniz və bunlar bir-bir yerinə yetirir və geri hesabat verir.
+
+Paradiqma bir neçə ifadədən ibarətdir və hamısı icra olunduqdan sonra nəticə saxlanılır. Kompüterə addım-addım nə edəcəyini izah etmək üçün təlimatların siyahısını yazmaqdır.
+
+Zəruri bir proqramlaşdırma paradiqmasında, addımların sırası çox vacibdir, çünki müəyyən bir addım addım yerinə yetirildikdə dəyişənlərin cari dəyərlərindən asılı olaraq fərqli nəticələrə səbəb olacaqdır.
+
+Prosessual proqramlaşdırma paradiqması
+Prosessual proqramlaşdırma (bu da vacibdir) bu təlimatları prosedurlara bölməyə imkan verir.
+
+Qeyd: prosedurlar funksiya deyil. Aralarındakı fərq, funksiyaların bir dəyər verməsi və prosedurların verməməsidir. Daha spesifik olaraq, funksiyalar minimum yan təsirlərə sahib olmaq üçün hazırlanmışdır və eyni giriş verildikdə həmişə eyni nəticəni verir. Digər tərəfdən prosedurlarda heç bir geri dönüş dəyəri yoxdur. Onların əsas məqsədi müəyyən bir tapşırığı yerinə yetirmək və istənilən bir yan təsirə səbəb olmaqdır.
+
+Prosedurların əla bir nümunəsi loop üçün yaxşı bilinər. For döngüsünün əsas məqsədi yan təsirlərə səbəb olmaqdır və dəyəri qaytarmır.
+
+Niyə prosedur proqramlaşdırma paradiqmasını öyrənməyi düşünməlisiniz?
+Ø Bu sadədir.
+Ø Proqram axınını izləməyin daha asan bir yolu.
+Ø Güclü modul və ya quruluşlanma qabiliyyətinə malikdir.
+Ø Daha az yaddaşa ehtiyac var: səmərəli və təsirli.
+Object-Oriented Programming
+Obyekt yönümlü proqramlaşdırma, xüsusiyyətlərin və davranışların ayrı-ayrı obyektlərə yığılması üçün proqramların strukturlaşdırılması vasitəsini təmin edən bir proqramlaşdırma paradiqmasıdır.
+
+Başqa sözlə desək, obyekt-yönümlü proqramlaşdırma konkret, real şeyləri, məsələn avtomobillər kimi, şirkətlər və işçilər, tələbələr və müəllimlər kimi şeylər arasındakı münasibətləri modelləşdirmək üçün bir yanaşmadır. OOP, real dünya varlıqlarını onlarla əlaqəli və müəyyən funksiyaları yerinə yetirə bilən proqram obyektləri kimi modelləşdirir.
+
+Başqa bir yayılmış proqramlaşdırma paradiqması, bir tapşırığı yerinə yetirmək üçün ardıcıl olaraq axan funksiyalar və kod blokları şəklində bir sıra addımlar təqdim etdiyi bir proqramı bir resept kimi quran prosedur proqramlaşdırmadır.
+
+Əsas seçim obyektlərin Python’da obyekt yönümlü proqramlaşdırma mərkəzində olmasıdır, yalnız prosessual proqramlaşdırmada olduğu kimi məlumatları deyil, proqramın ümumi quruluşunu da təmsil edir.
+
+OOP aiddir : Class, Abstraction, Encapsulation, Inheritance and Polymorphism.
+
+
+Nesne yönümlü proqramlaşdırma ən yaxşı halda istifadə olunur:
+
+Ø Hər bir komponenti anlamağa ehtiyac duymayan birdən çox proqramçı var
+
+Ø Paylaşıla bilən və yenidən istifadə edilə bilən bir çox kod varş
+
+Ø Layihənin tez-tez dəyişəcəyi və zaman keçdikcə əlavə ediləcəyi gözlənilir
+
+Parallel processing approach
+Paralel emal, proqram təlimatlarının bir çox prosessor arasında bölünərək işlənməsidir.
+
+Paralel bir emal sistemi, bir çox prosessorun bölüşdürərək bir proqramı daha az müddətdə idarə etməsinə imkan verir.
+Funksional proqramlaşdırma paradiqması
+Funksional proqramlaşdırma paradiqması son vaxtlar daha çox populyarlıq qazanan funksional bir proqramlaşdırma dili olan JavaScript sayəsində bir müddətdir diqqət mərkəzindədir.
+
+Funksional proqramlaşdırma paradiqması köklərini riyaziyyatdan götürür və dildən asılı deyil. Bu paradiqmanın əsas prinsipi bir sıra riyazi funksiyaların icrasıdır.
+
+Proqramınızı qısa funksiyalardan hazırlayırsınız. Bütün kod bir funksiya içərisindədir. Bütün dəyişənlər funksiyaya aiddir.
+
+Funksional proqramlaşdırma paradiqmasında funksiyalar həmin funksiyanın əhatə dairəsindən kənar heç bir dəyəri dəyişdirmir və funksiyaların özləri əhatə dairəsi xaricindəki hər hansı bir dəyərdən təsirlənmirlər.
+
+Deklarativ proqramlaşdırma paradiqması
+Deklarativ proqramlaşdırma, idarəetmə axını barədə danışmadan hesablamanın məntiqini ifadə edən proqramlar qurma tərzidir.
+
+Deklarativ proqramlaşdırma, proqramçının proqramın necə həyata keçirilməli olduğunu müəyyənləşdirmədən nəyin həyata keçirilməli olduğunu təyin etdiyi bir proqramlaşdırma paradiqmasıdır. Başqa sözlə, yanaşma, buna necə nail olmağı öyrətmək əvəzinə nəyin əldə edilməli olduğuna diqqət yetirir.
+
+Logic proqramlaşdırma paradiqması
+Məntiqi proqramlaşdırma paradiqması problem həllinə deklarativ yanaşma göstərir. Rəsmi məntiqə söykənir.
+
+Məntiqi proqramlaşdırma paradiqması təlimatlardan ibarət deyil, əksinə faktlar və müddəalardan ibarətdir. Bildiyi hər şeydən istifadə edir və bu həqiqətlərin və bəndlərin hamısının həqiqət olduğu dünya ilə fikirləşməyə çalışır.
+
+Məsələn, Sokrat bir insandır, bütün insanlar ölümlüdür və bu səbəbdən də Sokrat ölümlüdür.
+
+Database processing approach
+Bu proqramlaşdırma metodologiyası məlumatlara və onun hərəkətinə əsaslanır. Proqram ifadələri bir sıra addımları sabit kodlaşdırmaq əvəzinə məlumatlarla müəyyən edilir.
+
+Verilənlər bazası, ümumiyyətlə kompüter sistemində elektron olaraq saxlanılan mütəşəkkil məlumat və ya məlumatların mütəşəkkil toplusudur. Verilənlər bazası bir verilənlər bazası idarəetmə sistemi (DBMS) tərəfindən idarə olunur
+
+Verilənləri işləmək və onlara sorğu vermək üçün verilənlər bazaları cədvəllərdən istifadə edir. Verilər daha sonra asanlıqla əldə edilə, idarə oluna, dəyişdirilə, yenilənə, nəzarət edilə və təşkil edilə bilər.
+
+Yaxşı bir verilənlər bazası işləmə yanaşması hər hansı bir şirkət və ya təşkilat üçün çox vacibdir. Bunun səbəbi, verilənlər bazasında şirkət haqqında işçilərin qeydləri, əməliyyat qeydləri və əmək haqqı məlumatları kimi bütün müvafiq detalları saxlayır.
